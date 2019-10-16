@@ -1,24 +1,44 @@
 header {
   text-align: center;
+  padding: 20px;
 }
 body {
   background-color: lightblue;
   padding: 15px;
+  margin: 15px;
 }
-.one {
-  background-color: lightgreen;
-  padding: 15px;
+p {
+  font-size: 18px;
 }
-.two {
+img {
+  width: 500px;
+  float: left;
+  background-color: purple;
+  padding: 10px;
+  margin-right: 15px;
+}
+.sidebar {
+  float:left;
+  width: 800px;
   background-color: lightyellow;
-  padding: 15px;
+  padding: 5px;
+  border: Shoreline;
+  border-color: purple;
+  border-width: 10px;
+  /* margin: 10px; */
 }
-.three {
-  background-color: lavender;
-  padding: 15px;
+.about {
+  margin-left: 15px;
 }
-.special {
-  font-weight: bold;
-  font-size: 30px;
-  color: purple;
+
+.column {
+  margin-left: 20px;
+  background-color: lightgray;
+  padding: 10px;
+  border-style: double;
+  border-color: purple;
+  border-width: 10px;
+  width: 300px;
+  float: left;
+
 }
